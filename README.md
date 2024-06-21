@@ -1,2 +1,2 @@
-# automation-back-cypress-cucumber
+# automation-back-cypress
 Automação de testes de API com Cypress
