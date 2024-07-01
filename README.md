@@ -1,4 +1,4 @@
-# cy-api-testing-errors
+# cy-api-testing
 
 ![CI](https://github.com/wlsf82/cy-api-testing-errors/actions/workflows/ci.yml/badge.svg)
 

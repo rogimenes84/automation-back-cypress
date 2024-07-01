@@ -1,4 +1,4 @@
-describe('API - Error scenarios', () => {
+describe('API - Validar erro no cenario', () => {
   it('fails with 401 (Unauthorized) status code when access token is missing', () => {
     cy.request({
       method: 'GET',
@@ -8,7 +8,7 @@ describe('API - Error scenarios', () => {
       expect(status).to.equal(401)
       expect(body).includes('AUTHENTICATION_FAILED')
       expect(body)
-        .includes('Authentication credentials not found on the Request Headers')
+        .includes("Authentication credentials not found on the Request Headers")
       // Or
       const bodyObj = JSON.parse(body)
       const { code, description } = bodyObj
@@ -18,7 +18,7 @@ describe('API - Error scenarios', () => {
     })
   })
 
-  it('fails with 403 (Forbidden) status code when access token is incorrect', () => {
+  it('Falha na geração do token', () => {
     cy.request({
       method: 'GET',
       url: 'https://api.typeform.com/me',
@@ -36,7 +36,7 @@ describe('API - Error scenarios', () => {
     })
   })
 
-  it('fails with 404 (Not Found) status code when url does not exist', () => {
+  it('Falha com status code', () => {
     cy.request({
       method: 'GET',
       url: 'https://walmyr.dev/invalid-123',
