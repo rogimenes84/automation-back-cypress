@@ -2,28 +2,36 @@
 
 ![CI](https://github.com/wlsf82/cy-api-testing-errors/actions/workflows/ci.yml/badge.svg)
 
-Sample project to demonstrate how to test API error scenarios using Cypress.io.
+Projeto de automação de testes para API com Cypress.
 
-## Pre-requirements
+## ATENÇÃO
+O diretorio "Cenarios de testes, contém diversos casos de testes propostos para todo o desafio.
+Alguns casos de testes foram utilizados para o desenvolvimento da automação.
 
-It is required to have Node.js and npm installed to run this project.
+## Pre-requisito
 
-> I used versions `v16.13.2` and `8.3.2` of Node.js and npm, respectively. I suggest you use the same or later versions.
+É necessário ter Node.js e NPM/YARN instalados para executar este projeto.
 
-## Installation
+> Foi utilizado a versões `v20.11.1` e` 8.3.2` de node.js e npm, respectivamente. Eu sugiro que seja utilizado as mesmas versões.
 
-Run `npm install` (or `npm i` for the short version) to install the dev dependencies.
+## Instalação
 
-## Tests
+1º - passo a ser executado para a instalação do projeto:
+Clonar o projeto: https://github.com/rodrigoarriel56/automation-back-cypress
 
-Run `npm test` (or `npm t` for the short version) to run the test in headless mode.
+2º - Acessar a pasta do projeto:
+cd https://github.com/rodrigoarriel56/automation-back-cypress
+Executar o seguinte comando:
 
-Or, run `npm run cy:open` to open Cypress in interactive mode.
+Executar o seguinte comando `npm install` para instalar as dependencias.
 
-## Support this project
+## Execução dos Tests
+
+Executar `npm run cypress open` Deverá ser aberto o console do Cypess.
+Selecionar a opção desejada
+
+## -------------------------------------------------------------------------
 
 If you want to support this project, leave a ⭐.
 
 ___
-
-This project was created with 💚 by [Walmyr](https://walmyr.dev).
