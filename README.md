@@ -20,10 +20,9 @@ Alguns casos de testes foram utilizados para o desenvolvimento da automação.
 Clonar o projeto: https://github.com/rodrigoarriel56/automation-back-cypress
 
 2º - Acessar a pasta do projeto:
-cd https://github.com/rodrigoarriel56/automation-back-cypress
-Executar o seguinte comando:
+cd automation-back-cypress
 
-Executar o seguinte comando `npm install` para instalar as dependencias.
+3º - Executar o seguinte comando `npm install` para instalar as dependencias.
 
 ## Execução dos Tests
 
